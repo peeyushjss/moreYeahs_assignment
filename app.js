@@ -8,6 +8,8 @@ const app = express();
 
 app.listen(9000);
 
+console.log(" Application is running on PORT 9000");
+
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(bodyParser.json());
